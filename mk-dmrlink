@@ -41,7 +41,8 @@ else
 #    pip install bitarray
 fi
 
-# Install dmr_utils with pip install
+# Install required packages with pip install
+pip install Twisted
 pip install dmr_utils
 ###############################################################################
 # Following lines should be removed due to the pip install method for dmr_utils
